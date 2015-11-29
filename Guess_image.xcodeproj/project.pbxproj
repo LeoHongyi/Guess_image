@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189FA9281B349BE800B201D0 /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189FA9271B349BE800B201D0 /* questions.plist */; };
+		189FA92B1B34AA1A00B201D0 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 189FA92A1B34AA1A00B201D0 /* Question.m */; };
 		18B452F41B1D4D2A0000158F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B452F31B1D4D2A0000158F /* main.m */; };
 		18B452F71B1D4D2A0000158F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B452F61B1D4D2A0000158F /* AppDelegate.m */; };
 		18B452FA1B1D4D2A0000158F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B452F91B1D4D2A0000158F /* ViewController.m */; };
 		18B452FD1B1D4D2A0000158F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B452FB1B1D4D2A0000158F /* Main.storyboard */; };
 		18B452FF1B1D4D2A0000158F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B452FE1B1D4D2A0000158F /* Images.xcassets */; };
-		18B453021B1D4D2A0000158F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18B453001B1D4D2A0000158F /* LaunchScreen.xib */; };
 		18B4530E1B1D4D2A0000158F /* Guess_imageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B4530D1B1D4D2A0000158F /* Guess_imageTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		189FA9271B349BE800B201D0 /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		189FA9291B34AA1A00B201D0 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		189FA92A1B34AA1A00B201D0 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		18B452EE1B1D4D2A0000158F /* Guess_image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guess_image.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B452F21B1D4D2A0000158F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B452F31B1D4D2A0000158F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,7 +40,6 @@
 		18B452F91B1D4D2A0000158F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18B452FC1B1D4D2A0000158F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B452FE1B1D4D2A0000158F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		18B453011B1D4D2A0000158F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18B453071B1D4D2A0000158F /* Guess_imageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Guess_imageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B4530C1B1D4D2A0000158F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B4530D1B1D4D2A0000158F /* Guess_imageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Guess_imageTests.m; sourceTree = "<group>"; };
@@ -84,10 +87,11 @@
 				18B452F51B1D4D2A0000158F /* AppDelegate.h */,
 				18B452F61B1D4D2A0000158F /* AppDelegate.m */,
 				18B452F81B1D4D2A0000158F /* ViewController.h */,
+				189FA9291B34AA1A00B201D0 /* Question.h */,
+				189FA92A1B34AA1A00B201D0 /* Question.m */,
 				18B452F91B1D4D2A0000158F /* ViewController.m */,
 				18B452FB1B1D4D2A0000158F /* Main.storyboard */,
 				18B452FE1B1D4D2A0000158F /* Images.xcassets */,
-				18B453001B1D4D2A0000158F /* LaunchScreen.xib */,
 				18B452F11B1D4D2A0000158F /* Supporting Files */,
 			);
 			path = Guess_image;
@@ -96,6 +100,7 @@
 		18B452F11B1D4D2A0000158F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				189FA9271B349BE800B201D0 /* questions.plist */,
 				18B452F21B1D4D2A0000158F /* Info.plist */,
 				18B452F31B1D4D2A0000158F /* main.m */,
 			);
@@ -199,8 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189FA9281B349BE800B201D0 /* questions.plist in Resources */,
 				18B452FD1B1D4D2A0000158F /* Main.storyboard in Resources */,
-				18B453021B1D4D2A0000158F /* LaunchScreen.xib in Resources */,
 				18B452FF1B1D4D2A0000158F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B452FA1B1D4D2A0000158F /* ViewController.m in Sources */,
+				189FA92B1B34AA1A00B201D0 /* Question.m in Sources */,
 				18B452F71B1D4D2A0000158F /* AppDelegate.m in Sources */,
 				18B452F41B1D4D2A0000158F /* main.m in Sources */,
 			);
@@ -250,14 +256,6 @@
 				18B452FC1B1D4D2A0000158F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18B453001B1D4D2A0000158F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18B453011B1D4D2A0000158F /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -349,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Guess_image/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Guess_image/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +418,7 @@
 				18B453131B1D4D2A0000158F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18B453141B1D4D2A0000158F /* Build configuration list for PBXNativeTarget "Guess_imageTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				18B453161B1D4D2A0000158F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
